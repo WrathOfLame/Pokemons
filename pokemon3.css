@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1199px){
+    header {
+        font-size: 30px;
+        
+    }
+    body{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1079px) {
+    header {
+        font-size: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 902px){
+    header{
+        font-size: 22px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px){
+    header{
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 670px){
+    header{
+        font-size: 13px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    header{
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 380px){
+    header{
+        font-size: 8px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+}
+header{
+    background-color: olive;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px; 
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color: DarkGoldenRod;
+}
+body{
+    text-align: center;
+    background-color: NavajoWhite;
+}
+*{
+    font-family: Comic Sans MS;
+}
+form{
+    background-color: olive;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 50%;
+    color: DarkGoldenRod;
+}

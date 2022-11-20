@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    background-color: NavajoWhite;
+}
+#text{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: olive;
+}
+#pokemon{
+    color: white;
+}
+header{
+    background-color: olive;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px; 
+}
+a{
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: solid olive;
+}
+header a{
+    color: DarkGoldenRod;
+}
+@media only screen and (max-width: 1199px) {
+    header {
+        font-size: 30px;
+        
+    }
+    body{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1079px) {
+    header {
+        font-size: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 902px){
+    header{
+        font-size: 22px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px){
+    header{
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 670px){
+    header{
+        font-size: 13px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    header{
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    body{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 380px){
+    header{
+        font-size: 8px;
+    }
+    body{
+        text-align: center;
+        background-size: 380px;
+    }
+}
+*{
+    font-family: Comic Sans MS;
+}
